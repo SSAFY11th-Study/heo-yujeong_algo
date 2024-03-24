@@ -20,7 +20,6 @@ T = int(input())
 for tc in range(1, T+1):
     N, B = map(int, input().split())
     height = list(map(int, input().split()))
-    used = [0] * N
 
     min_hap = sum(height)
     select(0, 0)
